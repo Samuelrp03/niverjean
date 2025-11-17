@@ -12,7 +12,7 @@ const highlights = [
   {
     title: "Humor contagiante",
     description:
-      "Toda vez que o Jean fala um DAMMM, uma fada nasce",
+      "Os dias ficam mais engraçados quando o Jean abre a boca",
     icon: "🙂",
   },
   {
@@ -37,16 +37,12 @@ const wishes = [
 
 const surpriseNotes = [
   {
-    text: "Os dias ficam mais engraçados quando o Jean abre a boca",
+    text: "Sempre que o Jean fala um DAMMM uma fada nasce",
     author: "Samuel",
   },
   {
     text: "Obrigada por me tirar sorrisos mesmo quando o dia tá uma correria sem fim!",
     author: "Sunshine",
-  },
-  {
-    text: "Cuidar de quem você ama é sua superpotência. Que ela nunca falte.",
-    author: "Família Rodrigues",
   },
   {
     text: "Onde chega, o carisma transborda e a diversão liga o play! Um mestre em tornar qualquer papo em boa risada",
@@ -141,8 +137,11 @@ export default function Home() {
             />
           ))}
           {celebrationWord && (
-            <div className="absolute inset-0 flex items-center justify-center">
-              <p className="text-6xl font-extrabold uppercase tracking-[0.4em] text-white drop-shadow-[0_15px_30px_rgba(0,0,0,0.6)] sm:text-7xl">
+            <div className="absolute inset-0 flex items-center justify-center text-center">
+              <p
+                key={`${celebrationWord}-${fireworkBurst}`}
+                className="celebration-word text-6xl font-extrabold uppercase tracking-[0.4em] text-white drop-shadow-[0_15px_30px_rgba(0,0,0,0.6)] sm:text-7xl"
+              >
                 {celebrationWord}
               </p>
             </div>
