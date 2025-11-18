@@ -48,6 +48,34 @@ const surpriseNotes = [
     text: "Onde chega, o carisma transborda e a diversão liga o play! Um mestre em tornar qualquer papo em boa risada",
     author: "Luana",
   },
+  {
+    text: "Parabéns, que você continue sendo um menino bom",
+    author: "Sérgio",
+  },
+  {
+    text: "Parabéns, felicidades, que Deus te abençoe",
+    author: "Diego",
+  },
+  {
+    text: "Danm, que dia não? Feliz aniversário",
+    author: "Washington",
+  },
+  {
+    text: "Que seu aniversário seja tão incrível quanto aquela sensação de sair do trabalho na sexta-feira!",
+    author: "João",
+  },
+  {
+    text: "Escrevi e saí correndo, pau no cu de quem tá lendo",
+    author: "Anônimo",
+  },
+  {
+    text: "Você tem um coração bom, e isso é raro. Nunca perca isso. Feliz aniversário, miguin ❣️🫶🏻",
+    author: "Igor",
+  },
+  {
+    text: "Felizz aniversário Jean, valeu por alegrar nossa com seu senso de humor dúvidoso. Te desejo tudo de melhor no mundo",
+    author: "Liz",
+  },
 ];
 
 const confettiPieces = Array.from({ length: 30 }, (_, index) => index);
